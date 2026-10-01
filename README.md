@@ -1,17 +1,26 @@
-# flutter_shopapp
+# E-Commerce Flutter Application
 
-A new Flutter project.
+A modular and clean Flutter application for an e-commerce platform, featuring user authentication and product catalog screens.
 
-## Getting Started
+## 📁 Project Structure
 
-This project is a starting point for a Flutter application.
+The project follows a modular directory structure where each screen is isolated in its own subfolder:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```text
+lib/
+├── data/
+│   └── dummy_products.dart
+├── models/
+│   └── product.dart
+├── screens/
+│   ├── forgot_password/
+│   │   └── forgot_password_screen.dart
+│   ├── login/
+│   │   └── login_screen.dart
+│   ├── product_details/
+│   │   └── product_details_screen.dart
+│   ├── product_grid/
+│   │   └── products_grid_screen.dart
+│   └── product_list/
+│       └── products_list_screen.dart
+└── main.dart
