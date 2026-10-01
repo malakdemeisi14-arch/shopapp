@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'forgot_password_screen.dart';
-import 'products_grid_screen.dart';
+import '../forgot_password/forgot_password_screen.dart';
+import '../product_grid/products_grid_screen.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
